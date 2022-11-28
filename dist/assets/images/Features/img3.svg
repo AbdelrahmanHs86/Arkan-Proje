@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.088" height="141.088" viewBox="0 0 141.088 141.088">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.607" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#236194"/>
+      <stop offset="1" stop-color="#12314a"/>
+    </linearGradient>
+    <filter id="Path_11620" x="0" y="0" width="141.088" height="141.088" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2861" data-name="Group 2861" transform="translate(-819.956 -3166.456)">
+    <g transform="matrix(1, 0, 0, 1, 819.96, 3166.46)" filter="url(#Path_11620)">
+      <path id="Path_11620-2" data-name="Path 11620" d="M56.272,12.728a18,18,0,0,1,25.456,0l43.544,43.544a18,18,0,0,1,0,25.456L81.728,125.272a18,18,0,0,1-25.456,0L12.728,81.728a18,18,0,0,1,0-25.456Z" transform="translate(1.54 -1.46)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="money-bill-alt" d="M31.6,84.109H30.164v-7.9a.718.718,0,0,0-.718-.718H28.227a2.152,2.152,0,0,0-1.195.362l-1.376.918a.718.718,0,0,0-.2,1l.8,1.195a.718.718,0,0,0,1,.2l.042-.028v4.977H25.855a.718.718,0,0,0-.718.718v1.436a.718.718,0,0,0,.718.718H31.6a.718.718,0,0,0,.718-.718V84.828A.718.718,0,0,0,31.6,84.109ZM54.583,64H2.873A2.873,2.873,0,0,0,0,66.873V95.6a2.873,2.873,0,0,0,2.873,2.873h51.71A2.873,2.873,0,0,0,57.456,95.6V66.873A2.873,2.873,0,0,0,54.583,64ZM4.309,94.164V88.419a5.745,5.745,0,0,1,5.746,5.746Zm0-20.109V68.309h5.746A5.745,5.745,0,0,1,4.309,74.055ZM28.728,91.291c-4.76,0-8.618-4.5-8.618-10.055s3.859-10.055,8.618-10.055,8.618,4.5,8.618,10.055S33.486,91.291,28.728,91.291Zm24.419,2.873H47.4a5.745,5.745,0,0,1,5.746-5.746Zm0-20.109A5.745,5.745,0,0,1,47.4,68.309h5.746Z" transform="translate(863.302 3150.381)" fill="#fff"/>
+  </g>
+</svg>
