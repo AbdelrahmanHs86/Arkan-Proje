@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.765" height="59.763" viewBox="0 0 59.765 59.763">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#236194"/>
+      <stop offset="1" stop-color="#002e54"/>
+    </linearGradient>
+  </defs>
+  <g id="golden-gate-bridge" transform="translate(0)">
+    <path id="Path_11656" data-name="Path 11656" d="M1.247,324.979a1.246,1.246,0,0,1-.052-2.49L58.468,320a1.271,1.271,0,0,1,1.3,1.193,1.248,1.248,0,0,1-1.193,1.3L1.3,324.979H1.247Zm0,0" transform="translate(-0.001 -282.647)" fill="url(#linear-gradient)"/>
+    <path id="Path_11657" data-name="Path 11657" d="M82.369,66.382a1.265,1.265,0,0,1-.3-.037c-6.915-1.734-13.133-9.333-17.981-21.981a1.245,1.245,0,0,1,2.326-.891C69.58,51.738,74.973,62,82.67,63.927a1.246,1.246,0,0,1-.3,2.455Zm0,0" transform="translate(-56.533 -37.694)" fill="url(#linear-gradient)"/>
+    <path id="Path_11658" data-name="Path 11658" d="M326.583,171.066a1.245,1.245,0,0,1-.047-2.49c3.9-.147,6.25-.991,8.26-5.207a1.244,1.244,0,0,1,2.246,1.071c-2.52,5.287-5.852,6.454-10.411,6.626Zm0,0" transform="translate(-287.362 -143.675)" fill="url(#linear-gradient)"/>
+    <path id="Path_11659" data-name="Path 11659" d="M173.007,70.625c-.451,0-.881-.025-1.3-.065-8.688-.884-17.028-10.508-22.309-25.743A1.247,1.247,0,1,1,151.756,44c4.881,14.082,12.622,23.31,20.207,24.082,5.309.526,10.491-3.085,14.9-10.5A1.246,1.246,0,1,1,189,58.862c-5.655,9.51-11.614,11.763-15.994,11.763Zm0,0" transform="translate(-131.901 -38.127)" fill="url(#linear-gradient)"/>
+    <path id="Path_11660" data-name="Path 11660" d="M75.218,59.771H65.257a1.245,1.245,0,0,1-1.245-1.245V1.253a1.245,1.245,0,1,1,2.49,0V57.281h7.47V1.253a1.245,1.245,0,1,1,2.49,0V58.526a1.245,1.245,0,0,1-1.245,1.245Zm0,0" transform="translate(-56.54 -0.008)" fill="url(#linear-gradient)"/>
+    <path id="Path_11661" data-name="Path 11661" d="M414.06,151.834h-7.47a1.245,1.245,0,1,1,0-2.49h7.47a1.245,1.245,0,0,1,0,2.49Zm0,0" transform="translate(-358.031 -131.913)" fill="url(#linear-gradient)"/>
+    <path id="Path_11662" data-name="Path 11662" d="M414.06,165.36h-7.47a1.245,1.245,0,0,1-1.245-1.245V129.253a1.245,1.245,0,1,1,2.49,0V162.87h4.98V129.253a1.245,1.245,0,1,1,2.49,0v34.862A1.245,1.245,0,0,1,414.06,165.36Zm0,0" transform="translate(-358.031 -113.067)" fill="url(#linear-gradient)"/>
+    <path id="Path_11663" data-name="Path 11663" d="M75.218,45.166H65.257a1.245,1.245,0,0,1,0-2.49h9.961a1.245,1.245,0,0,1,0,2.49Zm0,0" transform="translate(-56.54 -37.695)" fill="url(#linear-gradient)"/>
+    <path id="Path_11664" data-name="Path 11664" d="M58.862,493.166H43.921a1.245,1.245,0,1,1,0-2.49H58.862a1.245,1.245,0,1,1,0,2.49Zm0,0" transform="translate(-37.695 -433.403)" fill="url(#linear-gradient)"/>
+    <path id="Path_11665" data-name="Path 11665" d="M397.707,429.166H385.257a1.245,1.245,0,0,1,0-2.49h12.451a1.245,1.245,0,1,1,0,2.49Zm0,0" transform="translate(-339.189 -376.873)" fill="url(#linear-gradient)"/>
+    <path id="Path_11666" data-name="Path 11666" d="M75.218,429.166H65.257a1.245,1.245,0,0,1,0-2.49h9.961a1.245,1.245,0,0,1,0,2.49Zm0,0" transform="translate(-56.54 -376.873)" fill="url(#linear-gradient)"/>
+    <path id="Path_11667" data-name="Path 11667" d="M414.06,386.5h-7.47a1.245,1.245,0,1,1,0-2.49h7.47a1.245,1.245,0,0,1,0,2.49Zm0,0" transform="translate(-358.031 -339.186)" fill="url(#linear-gradient)"/>
+    <path id="Path_11668" data-name="Path 11668" d="M260.992,474.324c-2.791,0-4.98-1.641-4.98-3.735a1.245,1.245,0,0,1,2.49,0c0,.508.971,1.245,2.49,1.245s2.49-.737,2.49-1.245a1.245,1.245,0,0,1,2.49,0C265.972,472.683,263.783,474.324,260.992,474.324Zm0,0" transform="translate(-226.129 -414.561)" fill="url(#linear-gradient)"/>
+    <path id="Path_11669" data-name="Path 11669" d="M324.992,474.324c-2.791,0-4.98-1.641-4.98-3.735a1.245,1.245,0,0,1,2.49,0c0,.508.971,1.245,2.49,1.245s2.49-.737,2.49-1.245a1.245,1.245,0,0,1,2.49,0C329.972,472.683,327.783,474.324,324.992,474.324Zm0,0" transform="translate(-282.659 -414.561)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

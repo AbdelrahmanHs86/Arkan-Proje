@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.664" height="96.513" viewBox="0 0 129.664 96.513">
+  <defs>
+    <filter id="youtube" x="0" y="0" width="129.664" height="96.513" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="youtube-2" data-name="youtube" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#youtube)">
+      <path id="youtube-3" data-name="youtube" d="M124.264,76.285a14.031,14.031,0,0,0-9.872-9.936C105.683,64,70.765,64,70.765,64s-34.918,0-43.626,2.348a14.031,14.031,0,0,0-9.872,9.936c-2.333,8.765-2.333,27.051-2.333,27.051s0,18.287,2.333,27.051a13.822,13.822,0,0,0,9.872,9.778c8.708,2.348,43.626,2.348,43.626,2.348s34.918,0,43.626-2.348a13.822,13.822,0,0,0,9.872-9.778c2.333-8.765,2.333-27.051,2.333-27.051S126.6,85.049,124.264,76.285ZM59.345,119.939V86.733l29.185,16.6Z" transform="translate(-5.93 -58)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275" height="275" viewBox="0 0 275 275">
+  <defs>
+    <filter id="Ellipse_125" x="0" y="0" width="275" height="275" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur"/>
+      <feFlood flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2842" data-name="Group 2842" transform="translate(-1211 -1688)">
+    <g id="Component_45_1" data-name="Component 45 – 1" transform="translate(1280 1753)">
+      <g transform="matrix(1, 0, 0, 1, -69, -65)" filter="url(#Ellipse_125)">
+        <circle id="Ellipse_125-2" data-name="Ellipse 125" cx="68.5" cy="68.5" r="68.5" transform="translate(69 65)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_129" data-name="Ellipse 129" cx="58.5" cy="58.5" r="58.5" transform="translate(10 10)" fill="#ececec" opacity="0.41"/>
+      <g id="Ellipse_126" data-name="Ellipse 126" transform="translate(23 25)" fill="none" stroke="#64a1d6" stroke-width="1" opacity="0.21">
+        <ellipse cx="44" cy="43.5" rx="44" ry="43.5" stroke="none"/>
+        <ellipse cx="44" cy="43.5" rx="43.5" ry="43" fill="none"/>
+      </g>
+      <g id="Ellipse_127" data-name="Ellipse 127" transform="translate(16 39)" fill="none" stroke="#64a1d6" stroke-width="1" opacity="0.38">
+        <ellipse cx="52" cy="29" rx="52" ry="29" stroke="none"/>
+        <ellipse cx="52" cy="29" rx="51.5" ry="28.5" fill="none"/>
+      </g>
+      <g id="Ellipse_128" data-name="Ellipse 128" transform="translate(39.04 120.054) rotate(-90)" fill="none" stroke="#64a1d6" stroke-width="1" opacity="0.14">
+        <ellipse cx="52.291" cy="29.091" rx="52.291" ry="29.091" stroke="none"/>
+        <ellipse cx="52.291" cy="29.091" rx="51.791" ry="28.591" fill="none"/>
+      </g>
+      <text id="_360" data-name="360" transform="translate(56 73)" fill="#236194" font-size="14" font-family="'\32 9LTBukra-Bold', '\32 9LT Bukra'" font-weight="700"><tspan x="0" y="0">360</tspan></text>
+      <text id="o" transform="translate(52 61)" fill="#236194" font-size="14" font-family="'\32 9LTBukra-Bold', '\32 9LT Bukra'" font-weight="700"><tspan x="0" y="0">o</tspan></text>
+    </g>
+  </g>
+</svg>
