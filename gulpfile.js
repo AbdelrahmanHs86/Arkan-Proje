@@ -9,7 +9,8 @@ var uncss = require('postcss-uncss');
 
 const terser = require('gulp-terser');
 
-
+const imagemin = require('gulp-imagemin');
+const imagewebp = require('gulp-webp');
 
 
 
@@ -41,17 +42,43 @@ function minjs() {
 
 
 
+// optimize and move images
+function optimizeimg() {
+    return src('src/assets/images/**/*.{jpg,png,svg}') // change to your source directory
+        .pipe(imagemin([
+            imagemin.mozjpeg({ quality: 80, progressive: true }),
+            imagemin.optipng({ optimizationLevel: 2 }),
+        ]))
+        .pipe(dest('dist/assets/images')) // change to your final/public directory
+};
+
+//conver jpg and png to webp
+function webpImage() {
+    return src('dist/assets/images/**/*.{jpg,png}') // change to your source directory
+        .pipe(imagewebp())
+        .pipe(dest('dist/assets/images')) // change to your final/public directory
+};
+
+
+function copyfonts() {
+    return src('src/assets/fonts/*.woff')
+        .pipe(dest('dist/assets/fonts'))
+}
 
 
 function watchTask() {
     watch('src/scss/**/*.scss', compilescss);
     watch('src/js/*.js', minjs);
-
+    watch('src/assets/images/**/*.{jpg,png,svg}', optimizeimg);
+    watch('dist/assets/images/**/*.{jpg,png,svg}', webpImage);
 
 }
 
 exports.default = series(
     compilescss,
     minjs,
+    optimizeimg,
+    webpImage,
+    copyfonts,
     watchTask
 );
