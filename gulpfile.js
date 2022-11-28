@@ -7,6 +7,10 @@ const sourcemap = require('gulp-sourcemaps');
 var postcss = require('gulp-postcss');
 var uncss = require('postcss-uncss');
 
+const terser = require('gulp-terser');
+
+
+
 
 
 
@@ -29,13 +33,25 @@ function compilescss() {
 }
 
 
+function minjs() {
+    return src('src/js/*.js')
+        .pipe(terser())
+        .pipe(dest('dist/js'))
+}
+
+
+
+
+
 function watchTask() {
     watch('src/scss/**/*.scss', compilescss);
+    watch('src/js/*.js', minjs);
 
 
 }
 
 exports.default = series(
     compilescss,
+    minjs,
     watchTask
 );
