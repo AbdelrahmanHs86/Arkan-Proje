@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">A responsive landing page for a creative agency with nice styling & animation.</h4>
+<h4 align="center">A responsive landing page for a real estate company.</h4>
 
 <div align='center'> 
 
@@ -20,7 +20,7 @@
 <br>
 
 <!-- ![alt text](./mobile%20screen%20copy.jpg "Awesome Landing Page") -->
-<p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/iPhone%20copy.jpg" /> </p>
+<p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Arkan-Proje/blob/main/ArkanProje.webp" /> </p>
 <!-- <p  align="center"><img width="800"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/Web-Showcase-Project-Presentation.jpg" /> </p> -->
 
 ## Table of Contents
