@@ -1,5 +1,6 @@
 const { src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
+
 const prefixer = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 const concat = require('gulp-concat');
@@ -19,7 +20,7 @@ const imagewebp = require('gulp-webp');
 function compilescss() {
     var plugins = [
         uncss({
-            html: ['index.html', 'index2.html']
+            html: ['index.html']
         }),
     ];
 
