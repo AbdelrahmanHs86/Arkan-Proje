@@ -9,7 +9,7 @@
 
   <img src='https://img.shields.io/badge/Version-v1.0-gray?style=for-the-badge'>
   
-  <a href='https://abdelrahmanhs86.github.io/CreativeAgencyTemplate/' target="_blank">
+  <a href='https://abdelrahmanhs86.github.io/Arkan-Proje/' target="_blank">
   
 <img src='https://img.shields.io/badge/Live Preview-green?style=for-the-badge'>
   
