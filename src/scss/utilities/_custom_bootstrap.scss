@@ -1,0 +1,10 @@
+@use '../utilities/colors' as *;
+
+$bg-light: $primary-color;
+
+
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' as *;
+
+.bg-light {
+    background-color: $bg-light !important;
+}

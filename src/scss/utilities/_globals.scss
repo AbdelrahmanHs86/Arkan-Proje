@@ -1,0 +1,30 @@
+@use './typography' as t;
+@use './custom_bootstrap' as b;
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: t.$primary-font;
+    background: b.$bg-light;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

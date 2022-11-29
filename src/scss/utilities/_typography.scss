@@ -1,0 +1,36 @@
+
+// Font Variables
+
+$main-font: "Segoe UI",sans-serif;
+
+$primary-font: "29LT Bukra Variable", sans-serif;
+
+$secondary-font: "Cairo Regular", sans-serif ;
+
+// Fontfaces
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI'), local('SegoeUI'),
+        url('/dist/assets/fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "29LT Bukra Variable";
+
+    src: url("/dist/assets/fonts/29LT Bukra.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+@font-face {
+    font-family: 'Cairo Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cairo Regular'), url('Cairo-Regular.woff') format('woff');
+    }
