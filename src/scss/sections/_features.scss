@@ -1,0 +1,38 @@
+@use '../utilities/typography' as *;
+@use '../utilities/colors' as *;
+
+.features {
+
+
+
+    h2 {
+        color: $main-color;
+        font-size: 40px;
+    }
+
+
+    .tablehead {
+
+        background: transparent linear-gradient(180deg, #2E6DA1 0%, #1A4A74 100%) 0% 0% no-repeat padding-box;
+        border-radius: 10px 10px 0 0;
+        color: white;
+    }
+
+    .tabelrow {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .firstrow {
+        background-color: white;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .price {
+        color: $main-color;
+        font-size: 22px;
+        font-weight: 700;
+        width: fit-content;
+    }
+
+}

@@ -1,0 +1,13 @@
+@use '../utilities/typography' as *;
+@use '../utilities/colors' as *;
+
+.features2 {
+
+
+    h4 {
+        color: $main-color;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+}
