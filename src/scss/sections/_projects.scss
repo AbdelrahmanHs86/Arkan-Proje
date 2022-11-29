@@ -1,0 +1,39 @@
+@use '../utilities/typography' as *;
+
+
+.projects {
+
+
+    .project-image {
+        position: relative;
+        margin-bottom: 20px;
+        // background: rgba(0,0,0,0) linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, #08365c 100%) 0% 0% no-repeat padding-box;
+    }
+
+
+
+
+    .col-12 {
+        margin: 0;
+        padding: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .project-desc {
+        position: absolute;
+        width: calc(100% - 10px);
+        z-index: 1;
+        bottom: 5px;
+        background: transparent linear-gradient(180deg, #00000000 0%, #043156FA 70%) 0% 0% no-repeat padding-box;
+        color: #fff;
+        padding: 15px;
+
+        img {
+            // width: 100px;
+
+        }
+    }
+
+
+}
