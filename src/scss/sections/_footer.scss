@@ -1,0 +1,50 @@
+@use '../utilities/typography' as *;
+
+
+footer{
+
+    background: transparent linear-gradient(113deg, #093F6D 0%, #122E46 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/dist/assets/images/Footer/footer.svg") no-repeat;
+    }
+
+    .container-fluid {
+        padding-bottom: 50px;
+
+        h6 {
+            font-weight: bold;
+        }
+
+        .social-link img {
+            margin: 0 15px;
+        }
+    }
+
+    h6{
+        margin-top:15px ;
+        color: #F6EACA;
+    }
+
+    .copyright {
+        background: #134E84;
+    }
+
+    .text-sm-center{
+        @media (max-width: 768px) {
+            text-align: center;
+            -ms-flex-pack: center!important;
+            justify-content: center!important;
+        }
+    }
+}
