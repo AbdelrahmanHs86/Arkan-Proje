@@ -1,0 +1,49 @@
+@use '../utilities/typography' as *;
+@use '../utilities/colors' as *;
+
+
+.contacts {
+
+
+    .contant-desc {
+
+        h2 {
+            color: $main-color;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        p {
+            color: black;
+            font-size: 20px;
+
+        }
+
+        h5 {
+            font-weight: bold;
+            letter-spacing: 0px;
+            color: $main-color;
+        }
+    }
+
+
+    .btn-blue {
+        background: $main-color 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 6px #00000029;
+        border-radius: 10px;
+        width: 100px;
+        font: bold 24px/30px;
+        letter-spacing: 0px;
+        color: white;
+    }
+
+    .btn-grey {
+        background: #BBBBBB 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 6px #00000029;
+        border-radius: 10px;
+        width: 100px;
+        font: bold 24px/30px;
+        letter-spacing: 0px;
+        color: white;
+    }
+}
