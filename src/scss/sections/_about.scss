@@ -1,0 +1,16 @@
+@use '../utilities/typography' as *;
+@use '../utilities/colors' as *;
+
+.about {
+
+    h2 {
+        color: $main-color;
+        font-size: 39px;
+    }
+
+    h2,
+    p {
+        font-family: $primary-font;
+    }
+
+}
