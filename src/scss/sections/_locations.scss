@@ -1,0 +1,27 @@
+@use '../utilities/typography' as *;
+@use '../utilities/colors' as *;
+
+
+.location {
+
+    background: $primary-color;
+
+    h2 {
+        color: $main-color;
+        font-size: 32px;
+    }
+
+    .desc-text {
+        font-size: 12px;
+        color: #656565;
+        width: 80%;
+    }
+
+    .loc {
+        font-size: 13px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+
+}
